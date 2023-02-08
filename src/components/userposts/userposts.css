@@ -1,0 +1,221 @@
+/* .alluserposts{
+    width: 100%;
+} */
+.userposts{
+    width: 95%;
+    /* height: 800px; */
+    background-color: #1d2226;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 17px;
+    /* overflow: scroll; */
+}
+.usersharepostcomment{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.commentnamepic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.userpostheadericon{
+    color: hsl(0 -13% 100% / 0.6);
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+
+}
+.userpostheadericon:hover{
+    background: rgba(245, 245, 245, 0.1);
+}
+
+.postownerinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    /* height: 60px; */
+}
+.postownerpicanddesc{
+    display: flex;
+    /* align-items: center; */
+    align-items: flex-start;
+    width: 70%;
+}
+.postownerimage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userinfonearimg{
+    margin-left: 5%;
+}
+.postownerfollowbtn{
+    background-color: #1d2226;
+    border: none;
+    width: 20%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    color:#70b5f9 ;
+    border-radius: 4px;
+}
+.postownerfollowbtn:hover{
+    background: rgba(64, 183, 216, 0.486);
+}
+.postownerfollowbtn >span{
+    margin-left: 2px;
+}
+.postinfo{
+    margin-top: 15px;
+}
+.userposttext{
+    margin-top: 20px;
+}
+
+.userimagecontent{
+    width: 100%;
+    margin-top: 13px;
+}
+.userimagecontentimage{
+    width: 90%;
+    margin-left: 5%;
+}
+.userpostlikeandcomments{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userpostlikes{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.commentsandrepost{
+    font-size: 12px;
+}
+.userpostlike{
+    margin-left: 3px;
+}
+.userpostlike:hover{
+    text-decoration: underline;
+    color:#70b5f9 ;
+    cursor: pointer;
+
+}
+.userpostcommnets:hover{
+    text-decoration: underline;
+    color:#70b5f9 ;
+    cursor: pointer;
+}
+.userpostreposts:hover{
+    text-decoration: underline;
+    color:#70b5f9 ;
+    cursor: pointer;
+}
+.userpostactions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.userpostactionbtn{
+    display: flex;
+    align-items: center;
+    background-color: #1d2226;
+    width: 20%;
+    height: 37px;
+    cursor: pointer;
+    border: none;
+    color: hsl(0 -13% 100% / 0.6);
+    border-radius: 5px;
+}
+.userpostactionbtn>span{
+    margin-left: 4px;
+}
+.userpostactionbtn:hover{
+    background: rgba(245, 245, 245, 0.1);
+}
+.yourimage{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.writecommenttouserpost{
+    width: 100%;
+}
+.userpostcommentinput{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.commentinput{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    border: 1px solid hsl(0 -13% 100% / 0.6);
+    border-top: 2px solid hsl(0 -13% 100% / 0.6);
+    border-radius: 20px;
+    height: 35px;
+}
+.commentinput>input{
+    background-color: #1d2226;
+    border: none;
+    outline: none;
+}
+.smilephoto{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.usercomment{
+    display: flex;
+    margin-bottom: 10px;
+}
+.commentinfo{
+    margin-left: 5px;
+}
+.usercommnetownerwork{
+    font-size: 13px;
+    color: hsl(0 -13% 100% / 0.6);
+}
+.commnettext{
+    margin-top: 10px;
+}
+.userpostcommentscontent{
+    margin-top: 15px;
+}
+@media only screen and (max-width:992px) and (min-width:768px){
+    .userposts{
+        width: 493px;
+        margin-left: 10%;
+    }
+    
+}
+@media only screen and (max-width:767px){
+    .userposts{
+        /* width: 200%;
+        margin-left: -50%; */
+        
+        /* margin: 0 auto; */
+    }
+    
+}

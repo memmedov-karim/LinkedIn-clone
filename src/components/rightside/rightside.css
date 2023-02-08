@@ -1,0 +1,86 @@
+.rightside{
+    background-color: #1d2226;
+    max-height: 450px;
+    margin-top: 70px;
+    width: 27%;
+    min-width: 250px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.righthead{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.righticons{
+    color: hsl(0 -13% 100% / 0.6);
+}
+.rightheadh2{
+    color: white;
+    font-size: 20px;
+}
+.rightpeoples{
+    /* height: 100px; */
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.rightpeople{
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+}
+.rightjob{
+    font-size: 14px;
+}
+.rightinfopeople{
+    margin-left: 5%;
+    margin-top: 5px;
+}
+.rightinfopeople>div{
+    margin-bottom: 5px;
+}
+.righthobby{
+    font-size: 12px;
+}
+.rigthpict{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightfollowbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 30px;
+    border: 1px solid hsl(0 -13% 100% / 0.6) ;
+    border-top: 2px solid hsl(0 -13% 100% / 0.6) ;
+    background-color: #1d2226;
+    border-radius: 10px;
+    cursor: pointer;
+    /* text-align: center; */
+}
+.rightfollowbutton:hover{
+    background: rgba(245, 245, 245, 0.1);
+}
+
+
+.rightfooter{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    cursor: pointer;
+    width: 70%;
+}
+.rightfooter:hover{
+    background-color: #6c777f ;
+}
+@media only screen and (max-width:992px) {
+    .rightside{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,96 @@
+.leftsection{
+    background-color: #1d2226;
+    height: 350px;
+    margin-top: 70px;
+    width: 17%;
+    min-width: 196px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.left-head{
+    width: 100%;
+}
+.profpicdiv{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #1d2226;
+    border-radius: 50%;
+    left: 33%;
+    top: 8%;
+
+
+
+}
+.bck{
+    width: 100%;
+    height: 60px;
+
+}
+.name-desc{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.name-desc>.name{
+    color: white;
+    cursor: pointer;  
+}
+.name-desc>p{
+    color: white;
+}
+.name-desc>.name:hover{
+    text-decoration: underline;
+}
+.prof-detail{
+    width: 100%;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.first:hover{
+    background-color: #53575a;
+}
+.first>span{
+    color: #70b5f9;
+}
+.third{
+    width: 100%;
+    margin-top: 0px;
+   
+}
+.third>a{
+    margin-left:5% ;
+}
+.third:hover{
+    background-color: #53575a;
+
+}
+.down-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width:992px) and (min-width:768px){
+    .leftsection{
+        margin-left: 2.5%;
+    }
+    
+}
+
+@media only screen and (max-width:767px){
+    .leftsection{
+        width: 80%;
+        /* margin: 0 auto; */
+    }
+    .profpicdiv{
+        margin-left: 7%;
+    }
+    
+}

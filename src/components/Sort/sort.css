@@ -1,0 +1,31 @@
+.midlesort{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.midleline{
+    width: 80%;
+    background-color: hsl(0 -13% 100% / 0.6);
+    height: 1px;
+}
+/* .midletext{
+    margin-left: 10%;
+} */
+
+@media only screen and (max-width:992px) and (min-width:768px){
+    .midlesort{
+        width: 493px;
+        margin-left: 10%;
+    }
+    
+}
+@media only screen and (max-width:767px){
+    .midlesort{
+        width: 200%;
+        margin-left: -50%;
+        /* margin: 0 auto; */
+    }
+    
+}

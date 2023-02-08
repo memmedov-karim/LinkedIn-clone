@@ -1,0 +1,138 @@
+.cont{
+    width: 100%;
+    background-color: #1d2226;
+    border-bottom:hsl(0 -13% 100% / 0.6) ;
+    height: 50px;
+    background-color: #1d2226;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+}
+.header{
+    width: 90%;
+    border-bottom:hsl(0 -13% 100% / 0.6) ;
+    height: 50px;
+    background-color: #1d2226;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+}
+.header-left{
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+}
+::placeholder{
+    color: white;
+}
+.header-search{
+    width: 60%;
+    background-color: #364047;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 2%;
+    
+}
+.header-search>input {
+    height: 25px;
+    outline: none;
+    width: 60%;
+    border: none;
+    background-color: #364047;
+    margin-left: 6%;
+    
+    border-radius: 5px;
+}
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    width: 63%;
+    /* border: 1px solid white; */
+}
+.ull{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-line{
+    height:50px;
+    width: 1px;
+    background-color: hsl(0 -13% 100% / 0.6);
+}
+ul>li{
+    color: white;
+    cursor: pointer;
+}
+.icon{
+    color: hsl(0 -13% 100% / 0.6);
+}
+.icon:hover{
+    color: white;
+}
+.icon:focus{
+    color: white;
+}
+.item-line{
+    background-color: white;
+    width: 1px;
+    height: 50px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+small{
+    color: white;
+}
+.inside{
+    color: white;
+}
+.itemnotify{
+    position: relative;
+}
+.notifynum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: red;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    text-align: center;
+    left: 50%;
+    top: -10%;
+
+}
+.white{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+@media only screen and (max-width:1024px) {
+    .header-search{
+        display:none
+    }
+    .header-right{
+        margin-left: 0px;
+        width: 76%;
+    }
+    .header{
+        justify-content: flex-start;
+    }
+}
+@media only screen and (max-width:853px) {
+    .textundericon{
+        display: none;
+    }
+}

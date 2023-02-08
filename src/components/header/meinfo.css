@@ -1,0 +1,61 @@
+.meinfo{
+    width: 20%;
+    /* height: 200px; */
+    border: 1px solid black;
+    position: absolute;
+    top: 60px;
+    /* left: 60%; */
+    right: 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    min-width: 252px;
+    background-color: #1d2226;
+    padding: 7px;
+}
+.meinfohead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+/* .mename-desc{
+    width: 70%;
+} */
+.meimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.meviewprofile{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #70b5f9;
+    color: #70b5f9;
+    background-color: #1d2226;
+}
+.memidle{
+    margin-left: 3%;
+}
+.meitem{
+    list-style: none;
+    /* border: 1px solid white; */
+    /* width: 50%; */
+    margin-top: -13px;
+}
+.meitems{
+    color: gray;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.meitems:hover{
+    text-decoration: underline;
+}
+
+.pem:hover{
+    color: #70b5f9;
+}
